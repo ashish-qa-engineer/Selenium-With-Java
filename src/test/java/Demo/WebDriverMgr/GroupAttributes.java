@@ -1,0 +1,27 @@
+package Demo.WebDriverMgr;
+import org.testng.annotations.*;
+public class GroupAttributes {
+	@Test(groups="Software Company")
+	public void infosys()
+	{
+		System.out.println("Infosys");
+	}
+	
+	@Test(groups="Software Company")
+	public void Wipro()
+	{
+		System.out.println("Wipro");
+	}
+	
+	@Test(groups="Automobile Company")
+	public void Maruti()
+	{
+		System.out.println("Maruti");
+	}
+	@Test(groups="Automobile Company")
+	public void Tata()
+	{
+		System.out.println("Tata");
+	}
+
+}
